@@ -2676,4 +2676,19 @@ hr {
     background-image: initial;
     background-image: initial;
   }
+  
+  .ui-mobile [data-role=page],
+  .ui-mobile [data-role=dialog],
+  .ui-page {
+    top: initial;
+    left: initial;
+    width: initial;
+    min-height: initial;
+    position: initial;
+    display: initial;
+    border: 0;
+    margin: 0px 0 30px;
+    padding: 0px;
+    height: auto;
+  }
 }
