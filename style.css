@@ -2271,8 +2271,7 @@ ul {
 }
 
 html {
-  scroll-behavior: smooth !important;
-  s
+  scroll-behavior: smooth;
 }
 
 .btn-font {
