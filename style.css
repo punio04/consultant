@@ -2271,7 +2271,8 @@ ul {
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
+  s
 }
 
 .btn-font {
@@ -2676,7 +2677,7 @@ hr {
     background-image: initial;
     background-image: initial;
   }
-  
+
   .ui-mobile [data-role=page],
   .ui-mobile [data-role=dialog],
   .ui-page {
