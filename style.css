@@ -1080,7 +1080,7 @@ Smart Phone
     padding-right: 4%;
     width: auto;
     font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   main {
@@ -2252,7 +2252,7 @@ ul {
   }
 
   .webinar-voice__txt {
-    font-size: 0.8rem;
+    font-size: 16px;
   }
 
   .webinar-info-bg {
@@ -2419,8 +2419,8 @@ ul {
         #section01 ul li {
           text-align: left;
           font-weight: 300;
-          font-size: 18px;
-          line-height: 40px;
+          font-size: 16px;
+          line-height: 28px;
           font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
         }
 
@@ -2625,7 +2625,7 @@ ul {
     }
 
     .voice_text {
-      font-size: 0.78em!important;
+      font-size: 16px!important;
       margin: 12px 0px;
       letter-spacing: 0rem;
       line-height: 1.7;
@@ -2641,5 +2641,14 @@ ul {
 
     .pt2em {
       padding-top: 1em;
+    }
+
+    .p-recommend__list-item {
+      color: #22485d;
+      background: #fff;
+      border-radius: 16px;
+      padding: 25px 20px 25px 64px;
+      position: relative;
+      font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
     }
   }
