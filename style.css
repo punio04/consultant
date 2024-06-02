@@ -2732,6 +2732,7 @@ hr {
   padding: 0.5em 1em 0 1em;
   text-align: center;
 }
+
 .box3 h1 {
   font-weight: 900;
   color: #23485d;
@@ -2790,7 +2791,7 @@ div#section0 {
 }
 
 div#voice {
-  padding-bottom: 100px!important;
+  padding-bottom: 100px !important;
 }
 
 
@@ -2800,9 +2801,11 @@ div#voice {
   border-radius: 15px;
   -moz-border-radius: 15px;
 }
+
 label {
   font-weight: bold;
 }
+
 element.style {}
 
 input.ui-input-text {
@@ -2871,10 +2874,12 @@ textarea.ui-input-text {
   margin-left: 10px;
   font-size: 80%;
 }
+
 .ui-select {
   display: block;
   position: relative;
 }
+
 .ui-select .ui-btn {
   overflow: hidden;
   opacity: 1;
@@ -2943,6 +2948,7 @@ textarea.ui-input-text {
   background-image: -o-linear-gradient(#fff, #f1f1f1);
   background-image: linear-gradient(#fff, #f1f1f1);
 }
+
 .ui-select .ui-btn-icon-right .ui-btn-inner,
 .ui-select .ui-li-has-count .ui-btn-inner {
   padding-right: 45px;
@@ -2997,6 +3003,7 @@ textarea.ui-input-text {
   border-top: 1px solid #fff;
   border-color: rgba(255, 255, 255, .3);
 }
+
 .ui-select .ui-btn-text {
   text-overflow: ellipsis;
 }
@@ -3025,6 +3032,7 @@ textarea.ui-input-text {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
 .ui-select .ui-btn-icon-right .ui-icon {
   right: 15px;
 }
@@ -3065,6 +3073,7 @@ textarea.ui-input-text {
   -webkit-border-radius: 9px;
   border-radius: 9px;
 }
+
 .ui-select .ui-btn select {
   cursor: pointer;
   -webkit-appearance: none;
@@ -3294,6 +3303,7 @@ select {
   font-size: 120%;
   padding: 5px;
 }
+
 .ui-loader.ui-corner-all.ui-body-a.ui-loader-default.ui-loader-fakefix {
   display: none;
 }
@@ -3310,40 +3320,45 @@ select {
 
 @media screen and (max-width: 768px) {
   .balloon2 {
-      font-size: 90%;
-      width: 215px;
-    }
-    div#section0 {
-      padding-bottom: 50px;
-    }
-    .box3 h1 {
-      color: #23485d;
-      line-height: 1.5;
-      font-size: 1.3em;
-      font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
-      margin-bottom: 0px;
-    }
-    .voice_font {
-      font-feature-settings: "palt";
-      font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
-      margin-top: 2%;
-      margin-bottom: -1%;
-      font-size: 1.2em;
-      line-height: 1.2;
-      color: #23485d;
-      padding: 0px;
-    }
-    p.voice_name {
-      font-size: 24px;
-      color: #23485d;
-      font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
-    }
-    div#voice {
-      padding-bottom: 50px !important;
-    }
+    font-size: 90%;
+    width: 215px;
+  }
 
-      .masterDiv {
-        padding: 0 20px;
-      }
+  div#section0 {
+    padding-bottom: 50px;
+  }
+
+  .box3 h1 {
+    color: #23485d;
+    line-height: 1.5;
+    font-size: 1.3em;
+    font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+    margin-bottom: 0px;
+  }
+
+  .voice_font {
+    font-feature-settings: "palt";
+    font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+    margin-top: 2%;
+    margin-bottom: -1%;
+    font-size: 1.2em;
+    line-height: 1.2;
+    color: #23485d;
+    padding: 0px;
+  }
+
+  p.voice_name {
+    font-size: 24px;
+    color: #23485d;
+    font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+  }
+
+  div#voice {
+    padding-bottom: 50px !important;
+  }
+
+  .masterDiv {
+    padding: 0 20px 50px 20px;
+  }
 
 }
