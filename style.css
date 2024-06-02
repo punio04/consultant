@@ -2828,6 +2828,7 @@ textarea.ui-input-text {
   display: block;
   width: 100%;
   outline: 0;
+  border: #22485d;
 }
 
 .ui-shadow-inset {
@@ -3293,6 +3294,17 @@ select {
   font-size: 120%;
   padding: 5px;
 }
+.ui-loader.ui-corner-all.ui-body-a.ui-loader-default.ui-loader-fakefix {
+  display: none;
+}
+
+.masterDiv {
+  padding: 0 205px 100px 205px;
+}
+
+.form-pc {
+  display: none;
+}
 
 
 
@@ -3330,7 +3342,8 @@ select {
       padding-bottom: 50px !important;
     }
 
-}
-.ui-loader.ui-corner-all.ui-body-a.ui-loader-default.ui-loader-fakefix {
-  display: none;
+      .masterDiv {
+        padding: 0 20px;
+      }
+
 }
